@@ -44,3 +44,20 @@ To compile the variants, use the following command:
 ```bash
 gcc -o Shellcode_ProcessInjector_auto Shellcode_ProcessInjector_auto.c
 gcc -o Shellcode_ProcessInjector_manual Shellcode_ProcessInjector_manual.c
+
+## Usage
+
+### Shellcode_ProcessInjector_auto
+1. Open the source file and modify the `processName` variable to target the desired process.
+2. Compile the program.
+3. Run the executable with administrative privileges.
+
+### Shellcode_ProcessInjector_manual
+1. Compile the program.
+2. Run the executable and enter the PID of the target process when prompted.
+
+## Notes
+- Ensure that the target process is running before injecting shellcode.
+- Use caution when running this program as it injects code into another process, which can lead to unexpected behavior.
+- This code is intended for educational purposes only. Ensure you have permission to test on any target processes.
+
