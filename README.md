@@ -1,9 +1,9 @@
 # Shellcode Process Injector
 
-This project contains two variants of a shellcode injector for Windows that injects shellcode into a specified target process. The two versions differ in how they identify the target process for injection: one uses a hardcoded process name, and the other allows the user to specify a process ID (PID) at runtime.
+This project contains two variants of a shellcode injector for Windows that injects shellcode into a specified target process. The two versions differ in how they identify the target process for injection: one uses a hardcoded process name, and the other allows the user to specify a process ID (PID) at runtime (This is more a POC).
 
 ## Variants
-
+Update the ShellCode with your own generated one
 ### Shellcode_ProcessInjector_auto
 1. Open the source file and modify the `processName` variable to target the desired process.
 2. Compile the program.
